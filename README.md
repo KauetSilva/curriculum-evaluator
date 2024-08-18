@@ -56,15 +56,7 @@ Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
     
     ```
     
-4. **Execute as migrações do banco de dados:**
-    
-    ```bash
-    bashCopy code
-    npx prisma migrate dev
-    
-    ```
-    
-5. **Inicie o servidor de desenvolvimento:**
+4. **Inicie o servidor de desenvolvimento:**
     
     ```bash
     yarn dev
@@ -73,7 +65,7 @@ Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
     
     ```
     
-6. **Acesse a aplicação:**
+5. **Acesse a aplicação:**
 Abra o navegador e acesse `http://localhost:3000`.
 
 
