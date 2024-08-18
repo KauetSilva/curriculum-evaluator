@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Bottom() {
   return (
-    <div className="bg-[#3D2C2E] text-[#F6F7EB] py-4 md:py-16 px-4 md:px-44">
+    <div className="bg-[#3D2C2E] text-[#F6F7EB] py-4 md:py-8 px-4 md:px-44">
       <div className="flex flex-col md:flex-row justify-center md:justify-between items-center">
         <div className="mb-4 md:mb-0">
           <h1 className="text-sm md:text-base">Apoie</h1>
