@@ -17,7 +17,7 @@ export default function Home() {
 
     setLoading(true);
 
-    fetch('http://localhost:4000/evaluate/upload', {
+    fetch(`${process.env.NEXT_PUBLIC_API}/evaluate/upload`, {
       method: 'POST',
       body: formData,
       headers: {
